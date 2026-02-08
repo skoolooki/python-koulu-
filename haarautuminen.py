@@ -131,7 +131,7 @@ try:
     if age1 < 0 or age2 < 0 or age3 < 0:
         print("Invalid input. Ages cannot be negative.")
     else:
-        # Find the youngest using if-elif-else
+        # Find the youngest
         # (If there is a tie, this will pick the first youngest found.)
         if age1 <= age2 and age1 <= age3:
             youngest_name = name1
@@ -223,7 +223,7 @@ try:
 
         print(f"Attendance (including sick leave): {percent:.2f}%")
 
-        # Eligibility (if-else)
+        # Eligibility
         if percent >= MIN_PERCENT:
             print("You are eligible to take the final exam.")
         else:
