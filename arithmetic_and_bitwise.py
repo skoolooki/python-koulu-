@@ -38,7 +38,7 @@ print(result)
 threeA = 10
 threeB = 0
 
-if b != 0:
+if threeB != 0:
     print(threeA / threeB)
     print(threeA // threeB)
 else:
